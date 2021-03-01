@@ -14,6 +14,4 @@ jobs:
           assignees: skip assign
           reviewers: Ukpebor, jomefavourite, chryzcodez
           max-num-of-reviewers: 1
-          ready-comment: 'Ready for review :rocket: <reviewers>'
-          merged-comment: 'It was merged. Thanks for your review :wink: <reviewers>'
-    
+      
