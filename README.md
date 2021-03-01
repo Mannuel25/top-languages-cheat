@@ -6,6 +6,7 @@ first and our [code of conduct](https://github.com/chryz-hub/py-tutorials/blob/m
 In order for us not to ignore your effort, please check well not to make a duplicate of a PR(contribution)/ issue!
 
 ## Content
+
 <details>
 <summary>
 <strong> <a href="https://github.com/chryz-hub/top-languages-cheat/tree/master/the-cheat-sheet/regular-expression-cheat">Regular Expression Cheats</a></strong>
