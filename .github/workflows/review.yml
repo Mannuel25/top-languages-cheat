@@ -11,7 +11,7 @@ jobs:
       - uses: hkusu/review-assign-action@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          assignees: skip assign
+          assignees: 'chryzcodez'
           reviewers: Ukpebor, jomefavourite, chryzcodez
           max-num-of-reviewers: 1
       
