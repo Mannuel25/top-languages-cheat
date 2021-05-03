@@ -23,5 +23,5 @@ For more detail on regular expressions, check:
 
 <strong><a href="https://www.britannica.com/biography/Stephen-Cole-Kleene#:~:text=Stephen%20Cole%20Kleene%2C%20(born%20Jan,foundations%20of%20theoretical%20computer%20science.">Stephen Cole Kleene</a></strong></br>
 
-<br><b><h4 align="left"><a href="https://github.com/chryz-hub/py-tutorials/blob/master/python/introduction/intro-to-python.md">➡Next Page</a></b></br>
+<br><b><h4 align="left"><a href="https://github.com/chryz-hub/top-languages-cheat/blob/master/the-cheat-sheet/regular-expression-cheat/regex-cheats.md">➡Next Page</a></b></br>
 
