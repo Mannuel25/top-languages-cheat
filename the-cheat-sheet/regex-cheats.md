@@ -96,10 +96,8 @@
 </summary>
 <ul>
 <li> `$n` - nth non-pa­ssive group</li>
-$2
-"­xyz­" in /^(abc­(xy­z))$/
-$1
-"­xyz­" in /^(?:a­bc)­(xyz)$/
+<li> `$2` - "­xyz­" in /^(abc­(xy­z))$/</li>
+<li> `$1` - "­xyz­" in /^(?:a­bc)­(xyz)$/</li>
 $`
 Before matched string
 $'
