@@ -1,4 +1,5 @@
 ## Regex Cheats
+
 <details>
 <summary>
 <strong>Anchors<strong>
@@ -14,6 +15,7 @@
 <li> `\>` - End of a word
 </ul>
 </details> 
+
 <details>
 <summary>
 <strong>Quantifiers<strong>
@@ -26,6 +28,7 @@
 <li> `{2, 4}` - Matches everything between 2-4 </li>
 </ul>
 </details>
+
 <details>
 <summary>
 <strong>Assertions<strong>
@@ -40,6 +43,7 @@
 <li> `?()` - Condition [if then] </li>  
 </ul>
 </details>
+
 <details>
 <summary>
 <strong>Character Classes<strong>
@@ -56,6 +60,21 @@
 <li> `\O` - Octal digit </li>
 </ul>
 </details>
+
+<details>
+<summary>
+<strong>Groups<strong>
+</summary>
+<ul>
+<li>  `(xyz)` - Grouping of characters </li>
+<li> `(?:xyz)` - Non-capturing group of characters </li>
+<li> `[xyz]` - Matches a range of characters (e.g. x or y or z) </li>
+<li> `[^xyz]` - Matches a character other than x or y or z </li>
+<li> `[a-d]` - Matches a character from within a specified range </li>
+<li> `[0-9]` - Matches a digit from within a specified range </li>  
+</ul>
+</details>
+
 <details>
 <summary>
 <strong>Special Characters<strong>
@@ -70,19 +89,28 @@
 <li> `\xhh` - Hex character hh </li>  
 </ul>
 </details>
+
 <details>
 <summary>
-<strong>Groups<strong>
+<strong><strong>
 </summary>
 <ul>
-<li>  `(xyz)` - Grouping of characters </li>
-<li> `(?:xyz)` - Non-capturing group of characters </li>
-<li> `[xyz]` - Matches a range of characters (e.g. x or y or z) </li>
-<li> `[^xyz]` - Matches a character other than x or y or z </li>
-<li> `[a-d]` - Matches a character from within a specified range </li>
-<li> `[0-9]` - Matches a digit from within a specified range </li>  
-</ul>
-</details>
+<li> `$n` - nth non-pa­ssive group</li>
+$2
+"­xyz­" in /^(abc­(xy­z))$/
+$1
+"­xyz­" in /^(?:a­bc)­(xyz)$/
+$`
+Before matched string
+$'
+After matched string
+$+
+Last matched string
+$&
+Entire matched string
+Some regex implem­ent­ations use \ instead of $.
+
+
 
 
 
