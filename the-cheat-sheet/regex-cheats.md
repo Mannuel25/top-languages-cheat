@@ -77,6 +77,22 @@
 
 <details>
 <summary>
+<strong>Pattern Modifiers<strong>
+</summary>
+<ul>
+<li> g - Global match</li>
+<li> i * - Case-i­nse­nsitive</li>
+<li> m * - Multiple lines</li>
+<li> s * - Treat string as single line</li>
+<li> x *- Allow comments and whitespace in pattern</li>
+<li> e * - Evaluate replac­ement</li>
+<li> U * - Ungreedy pattern</li>
+<li> * - PCRE modifier</li>
+</ul>
+</details>
+
+<details>
+<summary>
 <strong>Special Characters<strong>
 </summary>
 <ul>
@@ -106,12 +122,4 @@
 NOTE: 
 Some regex implem­ent­ations use \ instead of $.
 </details>
-
-
-
-
-
-
-
- 
 
